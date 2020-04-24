@@ -1,8 +1,11 @@
 import React from 'react';
+import Digimons from './components/Digimons';
 
 function App() {
   return (
-   <div className="App"></div>
+   <div className="App">
+     <Digimons />
+   </div>
   );
 }
 
