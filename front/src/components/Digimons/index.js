@@ -14,22 +14,19 @@ const Digimons = () => {
         })
     }, []);
     return(
-        <>
-            <div className="logo">
-                <img src="https://i.pinimg.com/originals/ca/5b/a7/ca5ba7d121989a03a9e22518a3ccaab1.png" />
-            </div>
-            <div style={{display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap', padding: 10}}>
-                {data.map((index, key) => (
+        <div className="container">
+            <div class="card-container">
+                {data.map((index) => (
                     <div className="card">
                         <div className="nome">{index.name}</div>
                         <div className="imagem">
-                            <img src={index.img} />
+                            <img src={index.img} alt={index.name} title={index.name}/>
                         </div>
                     </div>
                     )
                 )}
             </div>
-        </>
+        </div>
     );
 }
 export default Digimons;

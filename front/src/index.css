@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Baloo Thambi 2', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #F4F8F9;
+    background-color: #C1BEBF;
   }
   
   code {
