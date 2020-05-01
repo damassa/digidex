@@ -3,14 +3,14 @@ import './searchStyles.css';
 
 const Search = () => {
   
-    let handleChange = event => {
+    /*let handleChange = event => {
       this.props.textChange(event);
-    };
+    };*/
   
     return (
         <div className="search">
           <div className="input-container">
-            <input onChange={handleChange} placeholder="Search"/>
+            <input placeholder="Search"/>
           </div>
         </div>
     );
