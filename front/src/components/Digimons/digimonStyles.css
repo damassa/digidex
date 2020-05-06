@@ -1,30 +1,58 @@
 .card-container {
+    width: 22%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
 .card {
-    width: 330px;
-    height: 450px;
+    width: 100%;
+    height: 400px;
     background-color: #fff;
-    border: 1px solid #8b8e92;
-    box-shadow: 1px 0.5px #888888;
-    border-radius: 20px;
+    box-shadow: 0 20px 30px -16px rgba(9,9,16,.2);
     margin: 10px;
 }
 
-.card .nome{
+.card .imagem{
     width: 100%;
-    height: 80px;
+    height: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card .imagem{
+.card .imagem img{
+    width: 85%;
+}
+
+
+.card .infos{
     width: 100%;
-    height: 370px;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+    background-color: #00000011;
+
+    border-top: solid 1px rgba(0, 0, 0, 0.137);
+
+    font-size: 14px;
+    color: rgb(70, 70, 70);
+}
+
+.card .infos .nome{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .infos .level{
+    width: 100%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
