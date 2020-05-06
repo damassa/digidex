@@ -23,9 +23,9 @@ function App() {
     <div className="App">
       <Header />
       <div className="search">
-        <div className="input-container">
-          <input
-            onChange={e => {
+          <div className="input-container">
+            <input
+              onChange={e => {
               const test = data.filter(digimon => {
                 return digimon.name.toLowerCase().includes(e.target.value.toLowerCase());
               });
@@ -50,7 +50,7 @@ function App() {
           ))}
         </div>
       </div>
-  </div>
+    </div>
   );
 }
 

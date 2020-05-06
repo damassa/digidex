@@ -1,10 +1,13 @@
 import React from 'react';
 import './headerStyles.css';
+import logo from '../../assets/digimon-logo.png';
 
 const Header = () => {
     return(
         <header className="header">
-            <h1 className="title">DIGIDEX - Pokédex, for Digimon!</h1>
+            <div className="logo-container">
+                <img src={logo} alt="Digimon" title="Digidex - A pokédex, for Digimon!"/>
+            </div>
         </header>
     );
 }
