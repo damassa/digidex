@@ -11,6 +11,7 @@ function App() {
   const [loading, setLoading] = useState(false);
   
     useEffect(() => {
+        setLoading(true);
         axios.get('https://digimon-api.herokuapp.com/api/digimon', {
         })
         .then(response => {

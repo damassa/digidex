@@ -4,7 +4,7 @@ body {
     font-family: 'Baloo Thambi 2', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: #C1BEBF;
+    background-color: rgb(243, 230, 234);
   }
   
   code {
