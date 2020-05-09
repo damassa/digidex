@@ -2,6 +2,7 @@ import React, {useEffect,useState} from 'react';
 import axios from 'axios';
 import Header from './components/Header';
 import Digimons from './components/Digimons';
+import CircularProgress from '@material-ui/core/CircularProgress';
 import "./styles.css";
 
 function App() {
@@ -32,7 +33,9 @@ function App() {
     }, [search, data]);
 
     if (loading) {
-      return <p>Loading digidex..</p>;
+      return <div className="loading">
+                <CircularProgress />
+             </div>;
     }
   
   return (
