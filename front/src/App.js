@@ -34,6 +34,7 @@ function App() {
 
     if (loading) {
       return <div className="loading">
+                <strong>Loading digidex</strong>
                 <CircularProgress />
              </div>;
     }

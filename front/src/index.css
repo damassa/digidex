@@ -4,7 +4,7 @@ body {
     font-family: 'Baloo Thambi 2', cursive;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(243, 230, 234);
+    background-color: var(--light-purple);
   }
   
   code {
@@ -14,7 +14,8 @@ body {
   }
   
   :root {
-    --purple: #6C5BBB;
+    --purple: rgb(137, 125, 180);
+    --light-purple: #bcb9be;
     --flex: flex;
     --space-around: space-around;
     --space-between: space-between;

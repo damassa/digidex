@@ -11,8 +11,9 @@
     height: 400px;
 
     background-color: #fff;
-    border: 1px solid #8b8e92;
+    border: 1px solid var(--light-purple);
     box-shadow: 1px 0.5px #888888;
+    border-radius: 5px;
     margin: 10px;
 }
 
