@@ -14,7 +14,7 @@ body {
   }
   
   :root {
-    --purple: rgb(137, 125, 180);
+    --purple: #6461b8;
     --light-purple: #bcb9be;
     --flex: flex;
     --space-around: space-around;
