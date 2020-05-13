@@ -1,6 +1,5 @@
 import React from 'react';
 import Tooltip from '@material-ui/core/Tooltip';
-import Zoom from '@material-ui/core/Zoom';
 import './digimonStyles.css';
 
 const Digimons = props => {
@@ -8,7 +7,7 @@ const Digimons = props => {
   
     return(
       <div className="card-container">
-        <Tooltip title={level} TransitionComponent={Zoom} arrow>
+        <Tooltip title={level} arrow>
           <div className="card">
               <div className="nome">{name}</div>
                 <div className="imagem">
