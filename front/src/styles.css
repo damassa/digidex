@@ -75,3 +75,13 @@
     width: 80%;
     height: 32px;
 }
+
+@media only screen and (max-width: 414px) {
+    .search {
+        width: 60%;
+    }
+
+    .logo img {
+        width: 80%;
+    }
+}
