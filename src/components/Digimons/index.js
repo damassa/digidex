@@ -9,10 +9,10 @@ const Digimons = props => {
       <div className="card-container">
         <Tooltip title={level} arrow>
           <div className="card">
-              <div className="nome">{name}</div>
-                <div className="imagem">
-                  <img src={img} alt={name} />
-                </div>
+            <div className="nome">{name}</div>
+              <div className="imagem">
+                <img src={img} alt={name} />
+              </div>
           </div>
         </Tooltip>
       </div>
