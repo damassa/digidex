@@ -46,7 +46,7 @@ function App() {
              alt="logo" title="Digidex - A pokédex, for Digimon!" />
           </div>
           <div className="search">
-            <input type="text" placeholder="Search"
+            <input type="search" placeholder="Search"
               onChange={e => setSearch(e.target.value)}
             />
           </div>
